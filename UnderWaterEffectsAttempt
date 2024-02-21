@@ -1,0 +1,10 @@
+$$
+def KSF(W, R, theta):
+return (W**(1/2)/R)*((1+sin(theta))/2)
+$$
+W_in = 3
+R_in = 3
+theta_in = 3
+$$
+results =KSF(W_in, R_in, theta_in)
+print("Result:", result)
